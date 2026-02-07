@@ -43,8 +43,6 @@ obj_dir/
 # Build directories
 build/
 output/
-outputs/waveform.png
-outputs/tcl.png
 
 # OS specific
 .DS_Store
