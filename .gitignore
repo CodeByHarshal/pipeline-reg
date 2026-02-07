@@ -1,0 +1,59 @@
+# Simulation and Synthesis outputs
+*.vcd
+*.fst
+*.log
+*.jou
+*.pb
+*.wdb
+*.wcfg
+*.wlf
+
+# Vivado/Xilinx files
+.Xil/
+vivado*.jou
+vivado*.log
+*.cache/
+*.hw/
+*.ip_user_files/
+*.sim/
+*.runs/
+*.str
+*.rpt
+*.dcp
+*.bit
+*.ltx
+*.xpr.backup/
+
+# ModelSim/Questa
+work/
+transcript
+vsim.wlf
+modelsim.ini
+
+# VCS
+simv*
+csrc/
+*.daidir/
+*.vpd
+
+# Verilator
+obj_dir/
+*.vcd
+
+# Build directories
+build/
+output/
+outputs/waveform.png
+outputs/tcl.png
+
+# OS specific
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE
+.vscode/
+.idea/
+*.sublime-*
